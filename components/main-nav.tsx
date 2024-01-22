@@ -15,6 +15,11 @@ function MainNav({ className, ...props }: React.HTMLAttributes<HTMLElement>) {
       active: pathName === `/${params.storeid}`,
     },
     {
+      href: `/${params.storeid}/billboards`,
+      label: "Billboards",
+      active: pathName === `/${params.storeid}/billboards`,
+    },
+    {
       href: `/${params.storeid}/settings`,
       label: "Settings",
       active: pathName === `/${params.storeid}/settings`,
