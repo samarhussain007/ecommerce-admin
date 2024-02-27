@@ -8,7 +8,7 @@ import { ToasterProvider } from "@/providers/toast-provider";
 import "./globals.css";
 import prismadb from "@/lib/prismadb";
 import { ThemeProvider } from "@/providers/theme-provider";
-
+// test
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
